@@ -1,0 +1,185 @@
+<html>
+    <head>
+        <title>
+            CSS Assignment
+        </title>
+        <style>
+            div.FirstDiv{
+                background-color: skyblue;
+                height: 200px;
+
+            }
+            h1.h1class{
+                background-color: blue;
+                height: 60px;
+                
+            }
+            p.pclass{
+                background-color: gray;
+                height: 30px;
+            }
+            p.PUpperCase{
+                text-transform: uppercase;
+            }
+            p.plowercase{
+                text-transform: lowercase;
+            }
+            div.hyperlinkclass{
+                background-color: skyblue;
+            }
+            a :visited{
+                color: red;
+            }
+            
+            #table1, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            table {
+                width:80%;
+                border-spacing: 2px;
+            }
+            table, th, td {
+                border: 1px solid black;
+                padding: 5px;
+            }
+            
+            #t01 tr:nth-child(even) {
+                background-color: #eee;
+            }
+            #t01 tr:nth-child(odd) {
+            background-color: #fff;
+            }
+            #t01 th {
+            background-color: green;
+            color: white;
+            }
+
+            p.PNoteclass{
+                border: 1px solid coral;
+                outline-style: dashed;
+                outline-color: green;
+            }
+
+            #p1{
+                border: 3px solid black;
+                background-color: skyblue;
+                outline-style: solid;
+                
+            }
+            #p2{
+                border: 2px solid black;
+                background-color: skyblue;
+                outline-style: solid;
+                
+            }
+            #p3{
+                border: 0px black;
+                background-color: skyblue;
+                outline-style: solid;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="FirstDiv">
+            <h1 class="h1class">Css background-color example</h1>
+            <p class="pclass">This is text inside a div element</p>
+            <p>This paragraph has its own background-color</p>
+            <p class="pclass">we are still in the div element</p>
+        </div>
+        
+        <div class="FirstDiv">
+            <h1>This is heading 1</h1>
+            <h2><s>This is heading 2</s></h2>
+            <h3><u>This is heading 3</u></h3>
+            <h4>This is heading 4</h4>
+        </div>
+
+        <div class="FirstDiv">
+            <p class="PUpperCase">
+                This is some text
+            </p>
+            <p class="plowercase">
+                This is some text
+            </p>
+            <p>
+                This is some text
+            </p>
+        </div>
+        <div class="hyperlinkclass">
+            <p><a href="#"><u>This is a link</u></a></p>
+        </div>
+        <div>
+                    
+        <table style="width:100%" id="table1">
+                <tr>
+                <th>Firstname</th>
+                <th>Lastname</th> 
+                
+                </tr>
+                <tr>
+                <td>Peter</td>
+                <td>Griffin</td>
+                
+                </tr>
+                <tr>
+                <td>Lois</td>
+                <td>Griffin</td>
+                
+                
+            </table>
+      
+        </div>
+        <p></p>
+        <div>
+                <table id="t01">
+                        <tr>
+                          <th>Firstname</th>
+                          <th>Lastname</th> 
+                          <th>Saving</th>
+                        </tr>
+                        <tr>
+                          <td>Peter</td>
+                          <td>Griffin</td>
+                          <td>$4000</td>
+                        </tr>
+                        <tr>
+                          <td>Lois</td>
+                          <td>Griffin</td>
+                          <td>$200</td>
+                        </tr>
+                        <tr>
+                          <td>Clevlanf</td>
+                          <td>Brown</td>
+                          <td>$80</td>
+                        </tr>
+                      </table>
+                      
+        </div>
+
+        <p>
+
+        </p>
+
+        <div>
+            <p class="PNoteclass"> <b>Note:</b> IE8 supportsthe online properties only if a !DocType is specified.</p>
+        </div>
+        <p>
+
+        </p>
+        <div>
+            <p id="p1">
+                Some text.
+            </p>
+            <p id="p2">
+                Some text.
+            </p>
+            <p id="p3">
+                Some text.
+            </p>
+        </div>
+
+    </body>
+</html>
