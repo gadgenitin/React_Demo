@@ -1,0 +1,13 @@
+.table {
+  width: 300px;
+  text-align: left;
+  padding: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  font-family: sans-serif;
+}
+.button {
+  background-color: blue;
+  color: white;
+  font-family: sans-serif;
+}
